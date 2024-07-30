@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#quote-text {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#quote-author {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+#refresh-quotes-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#refresh-quotes-button:hover {
+    background-color: #0056b3;
+}
+
+#sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  #sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ddd;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  #sidebar a:hover {
+    color: #fff;
+  }
+
+  .togglebtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    transition: 0.3s;
+  }
+  
+  .togglebtn:hover {
+    background-color: #444;
+  }
+
+  .color-selection {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .color-box {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+    border-radius: 50%;
+  }
+  
+
+  .hidden {
+    display: none;
+  }
+
+  #main {
+    transition: margin-left 0.5s;
+    padding: 20px;
+  }
+
+  #color-selection, #theme-selection {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    margin-left: 5px;
+  }
+  
+   .theme-box {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+  }
+  
+  .color-box:hover, .theme-box:hover {
+    border: 1px solid #000;
+  }
+  
+  .theme-box {
+    width: 100px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ccc;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  
+  

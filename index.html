@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positive Way</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- FontAwesome for icons -->
+</head>
+<body>
+    <div class="header">
+        <h1>Positive Way</h1>
+        <p>This page is made for you to take a positive way in life. Mental health matters.</p>
+    </div>
+    <div class="quote-box">
+        <p id="quote-text">Loading quotes...</p>
+        <p id="quote-author"></p>
+        <button id="refresh-quotes-button">Refresh</button>
+    </div>
+    <div id="sidebar" class="bg-dark">
+        <a href="#" onclick="showColors()">Solid Colours</a>
+        <div id="color-selection" class="color-selection hidden">
+            <div class="color-box" style="background-color: #FF5733;" onclick="changeBackgroundColor('#FF5733')"></div>
+            <div class="color-box" style="background-color: #33FF57;" onclick="changeBackgroundColor('#33FF57')"></div>
+            <div class="color-box" style="background-color: #3357FF;" onclick="changeBackgroundColor('#3357FF')"></div>
+            <div class="color-box" style="background-color: #FF33A1;" onclick="changeBackgroundColor('#FF33A1')"></div>
+            <div class="color-box" style="background-color: #A1FF33;" onclick="changeBackgroundColor('#A1FF33')"></div>
+            <div class="color-box" style="background-color: #33A1FF;" onclick="changeBackgroundColor('#33A1FF')"></div>
+            <div class="color-box" style="background-color: #FFD133;" onclick="changeBackgroundColor('#FFD133')"></div>
+            <div class="color-box" style="background-color: #33FFD1;" onclick="changeBackgroundColor('#33FFD1')"></div>
+            <div class="color-box" style="background-color: #D133FF;" onclick="changeBackgroundColor('#D133FF')"></div>
+            <div class="color-box" style="background-color: #000;" onclick="changeBackgroundColor('#000')"></div>
+        </div>
+        <a href="#" onclick="showThemes()">Theme</a>
+        <div id="theme-selection" class="theme-selection hidden">
+            <div class="theme-box" style="background-image: url('images/pexels-ahmetkurt-12661193.jpg');" onclick="changeBackgroundImage('images/pexels-ahmetkurt-12661193.jpg')"></div>
+            <div class="theme-box" style="background-image: url('images/pexels-ithalu-907485.jpg');" onclick="changeBackgroundImage('images/pexels-ithalu-907485.jpg')"></div>
+            <div class="theme-box" style="background-image: url('images/pexels-jess-vide-4603529.jpg');" onclick="changeBackgroundImage('images/pexels-jess-vide-4603529.jpg')"></div>
+            <div class="theme-box" style="background-image: url('images/pexels-jhowfaria-8581948.jpg');" onclick="changeBackgroundImage('images/pexels-jhowfaria-8581948.jpg')"></div>
+            <div class="theme-box" style="background-image: url('images/pexels-lum3n-44775-167699.jpg');" onclick="changeBackgroundImage('images/pexels-lum3n-44775-167699.jpg')"></div>
+            <div class="theme-box" style="background-image: url('images/pexels-pixabay-257092.jpg');" onclick="changeBackgroundImage('images/pexels-pixabay-257092.jpg')"></div>
+            <div class="theme-box" style="background-image: url('images/pexels-taryn-elliott-6405694.jpg');" onclick="changeBackgroundImage('images/pexels-taryn-elliott-6405694.jpg')"></div>
+            <div class="theme-box" style="background-image: url('images/pexels-tookapic-7976.jpg');" onclick="changeBackgroundImage('images/pexels-tookapic-7976.jpg')"></div>
+
+            <!-- Add more theme images as needed -->
+        </div>
+        <a target="_blank" href="https://ayushdubey86.github.io/Portfolio/">Contact</a>
+    </div>
+    
+    <div id="main" style="position: absolute; top: 10px; left: 10px;">
+        <button class="togglebtn" onclick="toggleNav()">☰ Menu</button>  
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
