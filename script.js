@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authorization': 'Bearer sk-None-nvmGKZFPC0sjpm1mt8t2T3BlbkFJPcEhHFWaboFDlWRM8KD9' // Replace with your actual API key
+                    'Authorization': 'Bearer sk-None-P2vWx1vrXDcq8aDb4IV5T3BlbkFJP1U5UurqedRdUJmzfKoa' // Replace with your actual API key
                 },
                 body: JSON.stringify({
                     model: 'gpt-3.5-turbo',
