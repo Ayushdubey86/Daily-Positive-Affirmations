@@ -1,0 +1,6 @@
+[build]
+  publish = "public"  # Change this to your actual build output directory
+  functions = "netlify/functions"
+
+[[plugins]]
+  package = "@netlify/plugin-functions-install-core"
